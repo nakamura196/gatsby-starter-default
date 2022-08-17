@@ -8,16 +8,22 @@ import * as styles from "../components/index.module.css"
 
 const links = [
   {
+    text: "このサイトについて",
+    url: "about",
+    description:
+      "",
+  },
+  {
     text: "サービス",
     url: "service",
     description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
+      "開発したプロトタイプシステムです。",
   },
   {
     text: "データセット",
     url: "dataset",
     description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
+      "機械学習向けのデータセット等を提供します。",
   }
 ]
 
@@ -27,7 +33,7 @@ const IndexPage = () => (
     <div className={styles.textCenter}>
       
       <h1>
-        データ駆動型プロジェクト
+        東京大学史料編纂所「データ駆動型歴史情報研究基盤の構築」プロジェクト
       </h1>
       
     </div>

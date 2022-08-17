@@ -17,17 +17,10 @@ const UsingTypescript: React.FC<PageProps<DataProps>> = ({
 }) => (
   <Layout>
     <h1>
-      データセット
+      このサイトについて
     </h1>
-    <p>本プロジェクトで作成しているデータや、参考になる技術情報をまとめてあります。</p>
     <p>
-      <Link to="/dataset/github">GitHubについて</Link>
-    </p>
-    <p>
-      <Link to="/dataset/ruler">定規データセット</Link>
-    </p>
-    <p>
-      <Link to="/dataset/layout">レイアウトデータセット</Link>
+    東京大学史料編纂所の「データ駆動型歴史情報研究基盤の構築」プロジェクトに関する特設サイトです。
     </p>
   </Layout>
 )

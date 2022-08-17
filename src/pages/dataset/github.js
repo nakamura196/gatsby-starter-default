@@ -8,15 +8,12 @@ const UsingSSR = ({ serverData }) => {
   return (
     <Layout>
       <h1>
-        定規データセット
+        GitHubについて
       </h1>
-      <h2>データセットURL</h2>
-
-      <p><a href="https://github.com/lab-hi/dataset-ruler.git" target="_blank">https://github.com/lab-hi/dataset-ruler.git</a></p>
-
-      <h2>概要</h2>
-
-      <p></p>
+      <p>GitHubにHIラボのアカウントを開設し、学習用データセットや各種プログラムを公開しています。 詳細は以下のリンクをご参照ください。</p>
+      <ul>
+        <li><a href="https://github.com/lab-hi" target="_blank">https://github.com/lab-hi</a></li>
+      </ul>
     </Layout>
   )
 }

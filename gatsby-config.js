@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `データ駆動型プロジェクト`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `データ駆動型歴史情報研究基盤の構築`,
+    description: `史料編纂所が150年にわたって蓄積した日本史の研究資源を、Society5.0に対応し、さらに100年にわたって維持・発展させるため、長期保存・長期利用のための史料データリポジトリ構築、データ駆動型検索システムの構築、国際発信力の抜本的強化を柱として歴史情報研究基盤構築を行います。`,
     author: `HIラボ`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://static.lab.hi.u-tokyo.ac.jp/`,
   },
   plugins: [
     `gatsby-plugin-image`,
