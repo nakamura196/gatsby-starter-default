@@ -8,15 +8,15 @@ const UsingSSR = () => {
   return (
     <Layout>
       <h1>
-        定規データセット
+        花押レイアウトデータセット
       </h1>
       <h2>データセットURL</h2>
 
-      <p><a href="https://github.com/lab-hi/dataset-ruler.git" target="_blank">https://github.com/lab-hi/dataset-ruler.git</a></p>
+      <p><a href="https://github.com/lab-hi/dataset-kao.git" target="_blank">https://github.com/lab-hi/dataset-kao.git</a></p>
 
       <h2>概要</h2>
 
-      <p></p>
+      <p>東京大学史料編纂所が公開する資料画像データの中から、「花押」に関するアノテーションデータを公開しています。</p>
     </Layout>
   )
 }

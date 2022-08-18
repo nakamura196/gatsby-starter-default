@@ -24,6 +24,9 @@ const UsingTypescript: React.FC<PageProps<DataProps>> = ({
       <Link to="/dataset/github">GitHubについて</Link>
     </p>
     <p>
+      <Link to="/dataset/kao">花押レイアウトデータセット</Link>
+    </p>
+    <p>
       <Link to="/dataset/ruler">定規データセット</Link>
     </p>
     <p>
