@@ -11,10 +11,7 @@ type DataProps = {
   }
 }
 
-const UsingTypescript: React.FC<PageProps<DataProps>> = ({
-  data,
-  location,
-}) => (
+const UsingTypescript: React.FC<PageProps<DataProps>> = () => (
   <Layout>
     <h1>
       データセット
@@ -22,6 +19,9 @@ const UsingTypescript: React.FC<PageProps<DataProps>> = ({
     <p>本プロジェクトで作成しているデータや、参考になる技術情報をまとめてあります。</p>
     <p>
       <Link to="/dataset/github">GitHubについて</Link>
+    </p>
+    <p>
+      <Link to="/dataset/kuzushiji">くずし字データセット</Link>
     </p>
     <p>
       <Link to="/dataset/kao">花押レイアウトデータセット</Link>
@@ -38,11 +38,3 @@ const UsingTypescript: React.FC<PageProps<DataProps>> = ({
 export const Head: HeadFC<DataProps> = () => <Seo title="Using TypeScript" />
 
 export default UsingTypescript
-
-export const query = graphql`
-  {
-    site {
-      buildTime(formatString: "YYYY-MM-DD hh:mm a z")
-    }
-  }
-`
